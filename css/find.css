@@ -1,0 +1,460 @@
+.reco {
+    float: left;
+    position: relative;
+    width: 400px;
+    height: 500px;
+    margin-top: 70px;
+}
+
+
+
+.reco img {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.reco .word {
+    font-size: 30px;
+    width: 400px;
+    height: 100px;
+    border-radius: 0 0 20px 20px;
+    line-height: 100px;
+    text-align: center;
+    background-color: rgb(184, 180, 180);
+    color: white;
+}
+
+.reco .focus .word_2 {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.reco .focus .free {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background-color: gray;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    position: absolute;
+    top: 330px;
+    left: 20px;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.reco .focus .daylist {
+    position: absolute;
+    top: 150px;
+    left: 130px;
+    width: 140px;
+    height: 140px;
+}
+
+.reco .focus .daylist img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.box_1 {
+    height: 600px;
+    width: 1700px;
+
+}
+
+
+.srcoll {
+    margin-top: 70px;
+    margin-left: 50px;
+    float: left;
+    width: 700px;
+    height: 600px;
+}
+
+.scroll-container {
+    float: left;
+    margin-left: 50px;
+    width: 600px;
+    height: 300px;
+    overflow-x: auto;
+    white-space: nowrap;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.scroll-list {
+
+    list-style-type: none;
+    transition: none;
+}
+
+.scroll-list li {
+    background-color: #eee;
+    position: relative;
+    display: inline-block;
+    width: 400px;
+    height: 80px;
+    line-height: 80px;
+    margin-left: 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.scroll-list li .pic {
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+
+.scroll-list li .pic img {
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.scroll-list li .pict_name {
+    position: absolute;
+    float: left;
+    left: 100px;
+    top: -20px;
+    width: 100px;
+    height: 80px;
+    font-size: 19px;
+}
+
+.scroll-list li .pict_singer {
+    position: absolute;
+    float: left;
+    left: 100px;
+    top: 15px;
+    width: 100px;
+    height: 80px;
+    font-size: 17px;
+    color: gray;
+}
+
+.scroll-list li .pict_playing {
+    position: absolute;
+    left: 330px;
+    width: 45px;
+    height: 45px;
+}
+
+.scroll-list li .pict_playing img {
+    max-width: 45;
+    max-height: 45px;
+}
+
+.scroll_head {
+    float: left;
+    width: 700px;
+    height: 50px;
+    line-height: 30px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.scroll_head_2 {
+    margin-top: 20px;
+    float: left;
+    width: 700px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.scroll-container_2 {
+    float: left;
+    margin-left: 50px;
+    width: 600px;
+    height: 110px;
+    overflow-x: auto;
+    white-space: nowrap;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.scroll-list_2 {
+    list-style-type: none;
+    transition: none;
+}
+
+.scroll-list_2 li {
+    background-color: #eee;
+    position: relative;
+    display: inline-block;
+    width: 400px;
+    height: 80px;
+    line-height: 80px;
+    margin-left: 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.scroll-list_2 li .pic {
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+
+.scroll-list_2 li .pic img {
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.scroll-list_2 li .pict_singer {
+    position: absolute;
+    float: left;
+    left: 100px;
+    top: 15px;
+    width: 100px;
+    height: 80px;
+    font-size: 17px;
+    color: gray;
+}
+
+.scroll-list_2 li .pict_name {
+    position: absolute;
+    float: left;
+    left: 100px;
+    top: -20px;
+    width: 100px;
+    height: 80px;
+    font-size: 19px;
+}
+
+.song_list {
+    margin-left: 350px;
+    width: 1700px;
+    height: 500px;
+}
+
+.scroll-container_3 {
+    float: left;
+    margin-left: 50px;
+    width: 1500px;
+    overflow-x: auto;
+    white-space: nowrap;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.scroll-list_3 {
+    list-style-type: none;
+    transition: none;
+}
+
+.scroll-list_3 li {
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    height: 300px;
+    line-height: 80px;
+    margin-left: 20px;
+}
+
+.scroll-list_3 li .pic {
+    float: left;
+    width: 250px;
+    height: 250px;
+}
+
+.scroll-list_3 li .pic img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.scroll-list_3 li .pict_name {
+
+    float: left;
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 19px;
+}
+
+.scroll-list_3 .song_play {
+    position: absolute;
+    top: 170px;
+    left: 190px;
+    width: 50px;
+    height: 50px;
+}
+
+.scroll-list_3 .song_play img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.scroll-container_3 .earphone {
+    position: absolute;
+    top: -3px;
+    left: 25px;
+    width: 20px;
+    height: 20px;
+}
+
+.scroll-container_3 .earphone img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.scroll-container_3 .play_num {
+    position: absolute;
+    left: 50px;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+}
+
+.song_list .list_head {
+    position: absolute;
+    margin-left: 50px;
+    width: 500px;
+    height: 50px;
+    line-height: 100px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.box_1 .more {
+    position: relative;
+    margin-top: 70px;
+    float: left;
+    width: 400px;
+    height: 500px;
+}
+
+
+.more .p_1 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+.more .p_1 img {
+    max-width: 100%;
+    min-height: 100%;
+}
+
+.more .p_1 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+.more .p_1 img {
+    max-width: 100%;
+    min-height: 100%;
+}
+
+.more .p_2 {
+    position: absolute;
+    left: 210px;
+    top: -10px;
+    width: 100px;
+    height: 100px;
+}
+
+.more .p_2 img {
+    max-width: 100%;
+    min-height: 100%;
+}
+
+.more .p_3 {
+    position: absolute;
+    top: 205px;
+    left: 210px;
+    width: 100px;
+    height: 100px;
+}
+
+.more .p_3 img {
+    max-width: 100%;
+    min-height: 100%;
+}
+
+.more .p_4 {
+    position: absolute;
+    top: 100px;
+    left: 210px;
+    width: 100px;
+    height: 100px;
+}
+
+.more .p_4 img {
+    max-width: 100%;
+    min-height: 100%;
+}
+
+.more .p_5 {
+    position: absolute;
+    top: 205px;
+    width: 100px;
+    height: 100px;
+}
+
+.more .p_5 img {
+    max-width: 100%;
+    min-height: 100%;
+}
+
+.more .p_6 {
+    position: absolute;
+    top: 205px;
+    left: 105px;
+    width: 100px;
+    height: 100px;
+}
+
+.more .p_6 img {
+    max-width: 100%;
+    min-height: 100%;
+}
+
+.more .p_7 {
+    position: absolute;
+    top: 310px;
+    width: 200px;
+    height: 200px;
+}
+
+.more .p_7 img {
+    max-width: 100%;
+    min-height: 100%;
+}
+
+.more .p_8 {
+    position: absolute;
+    top: 310px;
+    left: 205px;
+    width: 100px;
+    height: 100px;
+}
+
+.more .p_8 img {
+    max-width: 100%;
+    min-height: 100%;
+}
+
+.more .p_9 {
+    position: absolute;
+    top: 415px;
+    left: 205px;
+    width: 100px;
+    height: 100px;
+}
+
+.more .p_9 img {
+    max-width: 100%;
+    min-height: 100%;
+}

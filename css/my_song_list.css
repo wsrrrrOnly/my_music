@@ -1,0 +1,31 @@
+.song_list_box {
+    margin-top: 20px;
+    width: 1600px;
+    height: 1650px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.song_list_box ul li {
+    float: left;
+    width: 300px;
+    height: 350px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.song_list_box ul li img {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 30px 30px;
+
+}
+
+.list_show {
+    margin-top: 20px;
+    height: 50px;
+    font-size: 31px;
+    font-weight: 600;
+}

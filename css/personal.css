@@ -1,0 +1,151 @@
+.account {
+    width: 1500px;
+    height: 200px;
+}
+
+.information .account .info_cover {
+    margin-top: 130px;
+    margin-left: 50px;
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: #eee;
+    margin-right: 30px;
+    border-radius: 30px;
+
+}
+
+.info_cover img {
+    float: left;
+    padding-top: 12px;
+    padding-left: 10px;
+    width: 70px;
+    height: 70px;
+}
+
+.information .ac {
+    margin-top: 100px;
+    float: left;
+    font-size: 30px;
+    font-weight: 600;
+    height: 200px;
+    width: 250px;
+}
+
+.information .info_cover_1 {
+    margin-top: 150px;
+    float: left;
+    font-size: 20px;
+    font-weight: 700;
+    color: gray;
+}
+
+.change_ac {
+    position: relative;
+    width: 1500px;
+    height: 70px;
+}
+
+.change_ac a {
+    position: absolute;
+    width: 170px;
+    height: 40px;
+
+    padding-left: 7px;
+    border: 2px solid black;
+    border-radius: 20px 20px 20px 20px;
+    top: 50px;
+    left: 820px;
+    font-size: 25px;
+    color: rgb(174, 176, 179);
+}
+
+.message {
+    margin-top: 50px;
+    width: 1500px;
+    height: 300px;
+}
+
+.mes {
+    width: 1500px;
+    height: 200px;
+}
+
+.mes .me {
+    float: left;
+    height: 200px;
+    width: 250px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.me_part {
+    float: left;
+    width: 1000px;
+    height: 500px;
+}
+
+.part {
+    width: 1000px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.part .part_1 {
+    float: left;
+    font-size: 22px;
+    margin-right: 40px;
+    font-weight: 600;
+}
+
+.part .part_2 {
+    float: left;
+    font-size: 20px;
+    margin-right: 60px;
+}
+
+.music_qua {
+    position: relative;
+    width: 1500px;
+    height: 200px;
+    padding-top: 50px;
+}
+
+.mus .mu {
+    position: absolute;
+    float: left;
+    left: 400px;
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.qua {
+    position: absolute;
+    left: 600px;
+    width: 1000px;
+    height: 200px;
+    float: left;
+}
+
+.mus .sound {
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    font-weight: 550;
+    font-size: 20px;
+}
+
+.mus .qua li {
+    float: left;
+    width: 200px;
+    height: 50px;
+    margin-right: 100px;
+    font-size: 18px;
+}
+
+.mus .qua li input {
+    margin-left: 10px;
+}

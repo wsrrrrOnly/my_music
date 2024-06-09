@@ -1,0 +1,19 @@
+.subject .intro_1 {
+    margin-top: 30px;
+    width: 500px;
+    height: 100px;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.subject .intro_2 {
+    width: 500px;
+    height: 60px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.subject .cover {
+    margin-top: 100px;
+}

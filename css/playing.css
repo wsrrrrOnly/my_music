@@ -1,0 +1,130 @@
+.box_2 .left_1 {
+    float: left;
+    position: relative;
+    margin-top: 70px;
+    width: 600px;
+    height: 1000px;
+
+}
+
+.box_2 .left_1 .album_cover {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    width: 500px;
+    height: 500px;
+    border-radius: 250px 250px 250px 250px;
+    background-color: black;
+}
+
+.box_2 .left_1 .album_cover img {
+    position: absolute;
+    top: 75px;
+    left: 75px;
+    max-width: 350px;
+    max-height: 350px;
+    border-radius: 500px;
+}
+
+
+.box_2 .right_1 .song_word {
+    position: relative;
+    width: 900px;
+    height: 1000px;
+    float: left;
+    margin-top: 70px;
+}
+
+.box_2 .right_1 .song_name {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    font-size: 40px;
+    color: black;
+    font-weight: 550;
+}
+
+.box_2 .right_1 .song_info {
+    position: absolute;
+    top: 110px;
+    left: 100px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #807c7c;
+}
+
+.box_2 .right_1 .song_info div {
+    float: left;
+    margin-right: 50px;
+}
+
+.box_2 .right_1 .song_recom {
+    position: absolute;
+    top: 180px;
+    left: 100px;
+    width: 300px;
+    height: 50px;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.box_2 .right_1 .song_recom .recom_1 {
+    float: left;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.box_2 .right_1 .song_lyric {
+    position: absolute;
+    top: 280px;
+    left: 100px;
+    width: 600px;
+    height: 600px;
+    font-size: 20px;
+    color: black;
+    line-height: 50px;
+    overflow-y: scroll;
+}
+
+
+
+body {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.footer .icon {
+    float: left;
+    width: 700px;
+    height: 150px;
+    margin-top: 25px;
+}
+
+.footer .small_icon {
+    margin-top: 10px;
+    margin-right: 50px;
+    float: left;
+    width: 60px;
+    height: 60px;
+}
+
+.footer .icon .small_icon img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.footer .small_icon_1 {
+    margin-right: 40px;
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+
+.footer .icon .small_icon_1 img {
+    max-width: 100%;
+    max-width: 100%;
+}
